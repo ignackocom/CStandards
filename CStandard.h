@@ -6,8 +6,8 @@
 * @brief     C Standard definitions
 * @details
 *
-* @see		 https://en.wikipedia.org/wiki/C_(programming_language)
-			 https://en.cppreference.com/w/c/preprocessor/replace#Predefined_macros
+* @see       https://en.wikipedia.org/wiki/C_(programming_language)
+*            https://en.cppreference.com/w/c/preprocessor/replace#Predefined_macros
 ******************************************************************************/
 
 #ifndef CSTANDARD_H
