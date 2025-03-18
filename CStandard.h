@@ -1,18 +1,19 @@
 /******************************************************************************
-* @file      CStandard.h
-* @author    Peter Potrok
-* @copyright Copyright (c) 1994 - 2025
+* \file      CStandard.h
+* \version   2025.03.18.01
+* \author    Peter Potrok
+* \copyright Copyright (c) 1994 - 2025
 *            MIT License (see License.txt file)
-* @brief     C Standard definitions
-* @details
+* \brief     C Standard definitions
+* \details   
 *
-* @see       https://en.wikipedia.org/wiki/C_(programming_language)
+* \see       https://en.wikipedia.org/wiki/C_(programming_language)
 *            https://en.cppreference.com/w/c/preprocessor/replace#Predefined_macros
 *            https://github.com/cpredef/predef
 ******************************************************************************/
 
 #ifndef CSTANDARD_H
-#define CSTANDARD_H		197801L
+#define CSTANDARD_H		20250318L
 
 
 /* no standard *//* do not use */
