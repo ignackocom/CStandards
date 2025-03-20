@@ -1,2 +1,2 @@
 # CStandards
-C Standards files
+C STDC Standards
