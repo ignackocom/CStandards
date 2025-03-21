@@ -1,5 +1,5 @@
 # CStandards
-C STDC Standards
+C __STDC_VERSION__ Standards
 
 Example of use
 
