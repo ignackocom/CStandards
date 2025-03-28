@@ -16,6 +16,9 @@
 #define CSTDCVERSION_H		20250318L
 
 
+#include "CStandard.h"
+
+
 /* STDC_VERSION definition, since CKR, ..., C23 */
 #if defined(__STDC_VERSION__)
 #define STDC_VERSION         __STDC_VERSION__
