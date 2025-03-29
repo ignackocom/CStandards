@@ -77,6 +77,21 @@
 
 
 /******************************************************************************
+**  Basic GET macros
+*/
+/* 1 STDC, 0 not STDC */
+#define GET_STDC()					STDC
+
+/* since CKR, ..., C23 */
+#define GET_STDC_VERSION()			STDC_VERSION
+
+#define GET_STDC_VERSION_YEAR()		(STDC_VERSION/100L)
+
+/* 1 hosted, 0 not hosted, -1 unknown */
+#define GET_STDC_HOSTED()			STDC_HOSTED
+
+
+/******************************************************************************
 * Examples of use
 *
 * #if defined(__STDC_VERSION__) && __STDC_VERSION__ == C99
@@ -104,6 +119,12 @@
 * ...
 * #endif
 * 
+* ---------------------------------------------------------
+* printf("stdc              = %d\n",  GET_STDC());
+* printf("stdc version      = %ld\n", GET_STDC_VERSION());
+* printf("stdc version year = %ld\n", GET_STDC_VERSION_YEAR());
+* printf("hosted            = %d\n",  GET_STDC_HOSTED());
+*
 */
 
 
