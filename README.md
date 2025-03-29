@@ -41,3 +41,6 @@ printf("stdc version      = %ld\n", GET_STDC_VERSION());
 printf("stdc version year = %ld\n", GET_STDC_VERSION_YEAR());
 printf("hosted            = %d\n",  GET_STDC_HOSTED());
 ```
+
+
+# History of changes ...
