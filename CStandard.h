@@ -16,7 +16,7 @@
 #define CSTANDARD_H		20250318L
 
 
-/* no standard *//* do not use */
+/* non standard *//* do not use */
 #define CKR		197801L
 #define C78		CKR
 
@@ -45,11 +45,62 @@
 
 
 /******************************************************************************
-* Example of use
+* STDC definition, 1 STDC, 0 not STDC
+*/
+#if defined(__STDC__)
+#define STDC                 __STDC__
+#else
+#define STDC                 0
+#endif
+
+
+/******************************************************************************
+* STDC_VERSION definition, since CKR/C78, ..., C23
+*/
+#if defined(__STDC_VERSION__)
+#define STDC_VERSION         __STDC_VERSION__
+#elif defined(__STDC__)
+#define STDC_VERSION         C89
+#else
+#define STDC_VERSION         CKR
+#endif
+
+
+/******************************************************************************
+* STDC_HOSTED definition, 1 hosted, 0 not hosted, -1 hosting is unknown
+*/
+#if defined(__STDC_HOSTED__)
+#define STDC_HOSTED          __STDC_HOSTED__
+#else
+#define STDC_HOSTED          -1
+#endif
+
+
+/******************************************************************************
+* Examples of use
 *
 * #if defined(__STDC_VERSION__) && __STDC_VERSION__ == C99
 * ...
 * C 99 code
+* ...
+* #endif
+* 
+* ---------------------------------------------------------
+* #if STDC_VERSION == CKR
+* ...
+* CKR code
+* ...
+* #elif STDC_VERSION == C89
+* ...
+* C89 code
+* ...
+* #elif STDC_VERSION == C95
+* ...
+* C95 code
+* ...
+* #else
+* ...
+* other code
 * ...
 * #endif
 * 
