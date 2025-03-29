@@ -1,7 +1,7 @@
 # CStandards
 C Standards
 
-Examples of use
+Example of use
 
 ```
 #if defined(__STDC_VERSION__) && __STDC_VERSION__ == C99
