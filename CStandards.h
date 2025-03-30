@@ -1,5 +1,5 @@
 /******************************************************************************
-* \file      CStandard.h
+* \file      CStandards.h
 * \version   2025.03.18.01
 * \author    Peter Potrok
 * \copyright Copyright (c) 1994 - 2025
@@ -12,8 +12,8 @@
 *            https://github.com/cpredef/predef
 ******************************************************************************/
 
-#ifndef CSTANDARD_H
-#define CSTANDARD_H		20250318L
+#ifndef CSTANDARDS_H
+#define CSTANDARDS_H		20250318L
 
 
 /* non standard *//* do not use */
@@ -128,4 +128,4 @@
 */
 
 
-#endif /* CSTANDARD_H */
+#endif /* CSTANDARDS_H */
