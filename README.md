@@ -1,5 +1,5 @@
 # CStandards
-C Standards
+C Standard constants
 
 Example of use
 
