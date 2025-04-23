@@ -3,7 +3,7 @@ C Standard constants
 
 Example of use
 
-```
+```c
 #if defined(__STDC_VERSION__) && __STDC_VERSION__ == C99
 ...
 C 99 code
@@ -13,7 +13,7 @@ C 99 code
 
 another example
 
-```
+```c
 #if STDC_VERSION == CKR
 ...
 CKR code
@@ -35,7 +35,7 @@ other code
 
 another example
 
-```
+```c
 printf("stdc              = %d\n",  GET_STDC());
 printf("stdc version      = %ld\n", GET_STDC_VERSION());
 printf("stdc version year = %ld\n", GET_STDC_VERSION_YEAR());
