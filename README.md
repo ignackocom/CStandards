@@ -6,7 +6,7 @@ Example of use
 ```c
 #if defined(__STDC_VERSION__) && __STDC_VERSION__ == C99
 ...
-C 99 code
+C99 code
 ...
 #endif
 ```
