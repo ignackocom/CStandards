@@ -1,15 +1,19 @@
 /******************************************************************************
 * \file      CStandards.h
-* \version   2025.03.18.01
-* \author    Peter Potrok
+* \version   2025.03.18
+* \author    Peter Potrok ( @ignackocom )
+*            ignacko.com@outlook.com
+*            https://github.com/ignackocom
 * \copyright Copyright (c) 1994 - 2025
 *            MIT License (see License.txt file)
 * \brief     C Standard definitions
 * \details   
 *
-* \see       https://en.wikipedia.org/wiki/C_(programming_language)
+* \see       https://github.com/ignackocom
+*			 https://en.wikipedia.org/wiki/C_(programming_language)
 *            https://en.cppreference.com/w/c/preprocessor/replace#Predefined_macros
 *            https://github.com/cpredef/predef
+*			 and other resources
 ******************************************************************************/
 
 #ifndef CSTANDARDS_H
@@ -18,7 +22,7 @@
 
 /* non standard *//* do not use */
 #define CKR		197801L
-#define C78		CKR
+#define C78		CKR /* alias */
 
 /* official standard ANSI X3.159-1989 *//* ANSI C */
 #define C89		198901L
@@ -27,7 +31,7 @@
 #define C90		C89
 
 /* official standard ISO/IEC 9899-1:1994 ISO/IEC 9899/AMD1:1995 *//* ANSI/ISO C */
-#define C94		199409L
+#define C94		199409L /* alias */
 #define C95		C94
 
 /* official standard ISO/IEC 9899:1999 *//* ANSI/ISO C */
@@ -38,7 +42,7 @@
 
 /* official standard ISO/IEC 9899:2018 *//* ANSI/ISO C */
 #define C17		201710L
-#define C18		C17
+#define C18		C17 /* alias */
 
 /* official standard ISO/IEC 9899:2024 *//* ANSI/ISO C */
 #define C23		202311L
